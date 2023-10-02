@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/barber.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+  <title>Barber</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <div class="bg-home">
+    <header>
+
+      <nav class="header-content container">
+        <div class="header-icons" data-aos="fade-down">
+          <a href="#">
+           <i class="fa-brands fa-instagram fa-2x"></i>   
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook fa-2x"></i>   
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-tiktok fa-2x"></i>   
+          </a>
+        </div>
+
+        <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+          <img 
+            data-aos="flip-up"
+            data-aos-delay="300"
+            data-aos-duration="1500"
+            src="img/logo.svg" 
+            alt="Logo da barbearia"
+          />
+        </div>
+
+        <div data-aos="fade-down">
+          <a class="header-button" href="#">
+            Agendar horario
+          </a>
+        </div>
+
+      </nav>
+
+      <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+        <h1>EL ESTILO ES UN REFLEJO DE TU ACTITUD Y PERSONALIDAD</h1>
+        <p>Horario de funcionamento: 09:00 a 19:00</p>
+        <a 
+          href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" 
+          class="button-contact" 
+          target="_blank"
+        >
+          Agendar horario
+        </a>
+      </main>
+
+    </header>
+
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about">
+    <div class="container about-content">
+      <div data-aos="zoom-in" data-aos-delay="100">
+        <img 
+          src="img/images.svg" 
+          alt="Imagem sobre a barbearia"
+        />
+      </div>
+
+      <div 
+        class="about-description"
+        data-aos="zoom-out-left" data-aos-delay="250"
+      >
+        <h2>Sobre</h2>
+        <p>Nuestra barbería es más que un lugar para un simple corte de pelo; es una experiencia de transformación y estilo. 
+          Con un equipo de barberos apasionados y un ambiente relajante, te brindamos un viaje único hacia la confianza y el 
+          aspecto impecable. Descubre la barbería donde la tradición se encuentra con la modernidad y donde cada visita es un momento de cuidado personal.</p>
+        <p>Horario de funcionamiento: <strong>09:00</strong> a <strong>19:00</strong></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+
+  <section class="services">
+
+    <div class="services-content container">
+      <h2>Servicios</h2>
+      <p>Explora una amplia gama de servicios diseñados para realzar tu imagen y elevarte a un nuevo nivel de confianza. 
+        Desde cortes de cabello y afeitados impecables hasta tratamientos de barba y masajes relajantes, nuestra atención 
+        meticulosa a los detalles te dejará luciendo y sintiéndote en tu mejor momento. Descubre cómo nuestros servicios pueden mejorar tu estilo de vida.</p>
+    </div>
+
+    <section class="haircuts">
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="150">
+        <img
+          src="img/corte1.png"
+          alt="Corte normal"
+        />
+        <div class="haircut-info">
+          <strong>Corte normal</strong>
+          <button>
+            $15.000
+          </button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+        <img
+          src="img/corte2.png"
+          alt="Barba completa"
+        />
+        <div class="haircut-info">
+          <strong>Barba completa</strong>
+          <button>
+            $10.000
+          </button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="400">
+        <img
+          src="img/corte3.png"
+          alt="Corte e barba"
+        />
+        <div class="haircut-info">
+          <strong>Corte y barba</strong>
+          <button>
+            $25.000
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <div class="services">
+    <h2>Ven a conocer</h2>
+  </div>
+
+  <iframe 
+  width="100%"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.8242894292516!2d-75.69237291122386!3d4.830261571471411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3880b62cefe29b%3A0x692f1184a999d6cd!2sUrbanizacion%20La%20Macarena!5e0!3m2!1sen!2sco!4v1695264427317!5m2!1sen!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  <footer class="footer">
+    <div class="footer-icons">
+      <a href="#">
+        <i class="fa-brands fa-instagram fa-2x"></i>   
+       </a>
+       <a href="#">
+         <i class="fa-brands fa-facebook fa-2x"></i>   
+       </a>
+       <a href="#">
+         <i class="fa-brands fa-tiktok fa-2x"></i>   
+       </a>
+    </div>
+
+    <div>
+      <img 
+        src="img/logo.svg" 
+        alt="Logo barbearia"
+      />
+    </div>
+
+    <p>Copyright 2023 | Barberia - Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Button Whatsapp -->
+
+  <a 
+   href="https://wa.me/573136662097"
+   class="btn-whatsapp"
+   target="_blank"
+   data-aos="zoom-in-up" data-aos-delay="400"
+  >
+    <img src="img/whatssapp.svg" alt="Botao whatsapp" />
+    <span class="tooltip-text">Agenda tu horario</span>
+  </a>
+
+
+  <script src="js/script2.js"></script>
+</body>
+</html>

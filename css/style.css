@@ -50,6 +50,14 @@ section{
   align-items: center;
   z-index: 1;
 }
+/* menu hamburguesa */
+#menu-icon {
+  position: absolute;
+  right: 20px; /* Controla la posición desde el lado derecho */
+  top: 20px; /* Controla la posición desde la parte superior */
+  font-size: 2rem;
+  cursor: pointer;
+}
 .header.sticky{
   background: var(--bg-color);
   border-bottom: .1rem solid rgba(0, 0, 0, .2);
@@ -733,6 +741,22 @@ span{
 @media (max-width: 420px){
   .filter-buttons1 .btn{
     font-size: .8rem;
+  }
+  #menu-icon {
+    right: 100px;
+  }
+  .btn-whatsapp {
+    left: 290px; 
+  }
+}
+@media (max-width: 414px){
+  .btn-whatsapp {
+    left: 330px; 
+  }
+}
+@media (max-width: 375px){
+  .btn-whatsapp {
+    left: 290px; 
   }
 }
 @media (max-width: 365px){
